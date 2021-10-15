@@ -15,8 +15,8 @@ node {
        echo "Getting Private Repo"
        git(
        url: 'git@github.com:codeswar/class-java-app.git',
-       credentialsId: 'java-app',
-       branch: "master"
+       credentialsId: 'class-java-app',
+       branch: "main"
        )
 
 
