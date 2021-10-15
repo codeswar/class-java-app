@@ -75,7 +75,7 @@ node {
       
        // Upload artifact to Nexus using plugin 
 
-       nexusArtifactUploader artifacts: [[artifactId: pom.artifactId, classifier: '', file: artifactPath, type: pom.packaging]], credentialsId:'NEXUS_USER', groupId: pom.groupId, nexusUrl: '3.90.162.204:8081', nexusVersion: 'nexus3', protocol: 'http', repository: 'devops-test-repo-snapshot/', version: pom.version 
+       nexusArtifactUploader artifacts: [[artifactId: pom.artifactId, classifier: '', file: artifactPath, type: pom.packaging]], credentialsId:'NEXUS_USER', groupId: pom.groupId, nexusUrl: '54.87.197.216:8081', nexusVersion: 'nexus3', protocol: 'http', repository: 'devops-test-repo-snapshot/', version: pom.version 
 
 
        }
